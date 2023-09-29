@@ -1,0 +1,80 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.tagline p {
+    font-size: 18px;
+}
+
+
+.section {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-text {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.proj-desc {
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
